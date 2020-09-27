@@ -3,7 +3,7 @@ package twitch;
 /**
 	The main entry point of this library. Manages API calls and the use of access tokens in these.
 **/
-@:jsRequire("twitch", "ApiClient") extern class ApiClient {
+@:jsRequire("twitch", "ApiClient") extern class ApiClient implements AuthProvider {
 	/**
 		Creates a new API client instance.
 	**/
