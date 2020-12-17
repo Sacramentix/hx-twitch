@@ -13,11 +13,6 @@
 	"contributors": [
 		"haxiomic"
 	],
-	"dependencies": {
-		"twitch-api-call": "git:https://github.com/Sacramentix/hx-twitch-api-call.git",
-		"twitch-auth": "git:https://github.com/Sacramentix/hx-twitch-auth.git",
-		"d-fischer-logger": "git:https://github.com/Sacramentix/hx-d-fischer-logger.git",
-		"d-fischer-shared-utils": "git:https://github.com/Sacramentix/hx-d-fischer-shared-utils.git"
-	},
+	"dependencies": {},
 	"version": "4.2.4"
 }

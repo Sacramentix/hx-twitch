@@ -1,0 +1,4 @@
+-lib twitch-api-call:git:https://github.com/Sacramentix/hx-twitch-api-call.git
+-lib twitch-auth:git:https://github.com/Sacramentix/hx-twitch-auth.git
+-lib d-fischer-logger:git:https://github.com/Sacramentix/hx-d-fischer-logger.git
+-lib d-fischer-shared-utils:git:https://github.com/Sacramentix/hx-d-fischer-shared-utils.git
