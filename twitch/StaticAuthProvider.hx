@@ -7,7 +7,7 @@ package twitch;
 	or to plan ahead and supply only access tokens that account for all scopes
 	you will ever need.
 **/
-@:jsRequire("twitch", "StaticAuthProvider") extern class StaticAuthProvider {
+@:jsRequire("twitch", "StaticAuthProvider") extern class StaticAuthProvider implements AuthProvider {
 	/**
 		Creates a new auth provider with static credentials.
 	**/
@@ -38,4 +38,7 @@ package twitch;
 	**/
 	final currentScopes : Array<String>;
 	static var prototype : StaticAuthProvider;
+
+	@:optional
+	function refresh():js.lib.Promise<Null<AccessToken>>;
 }
