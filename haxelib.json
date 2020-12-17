@@ -13,6 +13,11 @@
 	"contributors": [
 		"haxiomic"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"twitch-api-call": "",
+		"twitch-auth": "",
+		"d-fischer-logger": "",
+		"d-fischer-shared-utils": ""
+	},
 	"version": "4.2.4"
 }
